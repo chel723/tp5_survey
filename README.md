@@ -1,4 +1,5 @@
 # tp5_survey
-survey using react
 
-Victor ELY & Qun WANG
+TP: React Survey Project
+
+By Victor ELY & Qun WANG
