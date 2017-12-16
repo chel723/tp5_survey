@@ -28,13 +28,11 @@ const styledTheme = {
 const App = () => (
   <MuiThemeProvider theme={theme}>
     <ThemeProvider theme={styledTheme}>
-      <div>
-        <Router>
-          <Switch>
-            <Route path="/" component={Layout} />
-          </Switch>
+      <Router>
+        <Switch>
+          <Route path="/" component={Layout} />
+        </Switch>
         </Router>
-      </div>
     </ThemeProvider>
   </MuiThemeProvider>
 );
